@@ -1,0 +1,98 @@
+* {
+	font-family: Roboto;
+}
+
+body {
+    margin:0px; padding: 0px;
+    
+}
+
+li {
+	margin: 0 0 0 45px;
+	font-size: 22px;
+	color: grey;
+}
+
+.header{
+	background-color:#f8f8f8;
+	padding: 9px 0 9px 0;
+	border-bottom: 2px solid #e7e7e7;
+}
+
+.container {
+    width:1640px;
+    margin: auto;
+   
+}
+
+.nav {
+	margin:20px; padding:0px;
+    position:absolute;
+    right:130px;
+	font-size: 26px;
+	
+}
+
+.nav li {
+	display:inline;
+}
+
+.main img {
+	width: 1000px;
+	height: 640px;
+	float: left;
+}
+
+#logo img{
+	height: 72px;
+}
+
+.choose {
+	margin-top: 0px;
+	clear:left;
+	
+}
+
+.make {
+	background-color:#f16530;
+	padding: 20px;
+	color: white;
+	border-radius: 3px;
+}
+
+.foonav {
+	font-size: 32px;
+	color: grey;
+	padding-top: 15px;
+}
+
+.foonav div{
+	display:inline;
+	margin-right: 60px;
+}
+
+.main h1 {
+	padding-top: 30px;
+	font-size: 50px;
+	color: #104784;
+	font-weight: 300;
+}
+
+.choose h2 {
+	color: #104784;
+	font-size: 44px;
+	font-weight: 300;
+}
+
+.main h3 {
+	font-size: 20px;
+	color: #104784;
+	
+}
+
+th, td {
+	text-align: left;
+	padding-right: 20px;
+	font-size: 26px;
+}
+

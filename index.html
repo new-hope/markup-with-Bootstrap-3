@@ -1,70 +1,138 @@
-<DOCTYPE html>
-<html lang="ru">
-	<!-- Заголовок веб-страницы -->
-	<head>
-		<!-- Кодировка веб-страницы -->
-		<meta charset="utf-8">
-		<!-- Предназначен для управления режимом отображения веб-страницы в браузерах Internet Explorer -->
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<!-- Включает масштабирование на мобильных устройствах -->
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<!-- Текс заголовка веб-страницы -->
-		<title>Savedo Bank</title>
-		<!-- Подключаю скомпилированный и минимизируевый файл CSS Bootstrap 3 -->
-		<link href="css/bootstrap.min.css" rel="stylesheet">
-	</head>
-	
-	<body>
-	<!-- Шапка -->
-	<div class="container-fluid">
-		<div class="row" style="background-color: blue;">
-		
-			<!-- блок с логотипом и стилем, задающим выравниевание элемента по левому краю -->
-			<div id="logo" style="float:left">
-				<!-- Элемент img для вывода логотипа, расположенного в папке images -->
-				<h1 style="color: grey"><img src="images/logo.png"> Savedo Bank</h1>
-					
+<!DOCTYPE>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Savedo Bank Account</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Roboto" type="text/css" rel="stylesheet" />
+</head>
+ 
+<body>
+    <div class="header">
+		<div class="container">
+			<ul class="nav">
+				<li>Account</li>
+				<li>Payees</li>
+				<li>Payments</li>
+			</ul>
+				
+			<div id="logo">
+				<img src="images/logo.png">
 			</div>
-			<div id="oper" style="float:right">
-				<h2  style="color: grey; word-spacing: 1em; margin-top:40px;">Account Payers Payments</h2>	
+		</div>
+	</div>
+             
+    <div class="main">
+		<div class="container">
+			<h1>Welcome to Savedo Bank Account</h1>
+			<h3>Current Balance: €56 000,00</h3>
+			<img src="images/graphic.png" alt="график текущего баланса" />
+			
+			
+			<div>
+				<h2>Last payments:</h2>
+				<table>
+					<tr>
+						<th>Time</th>
+						<th>Action</th>
+						<th>Amount</th>
+						<th>Payee</th>
+					</tr>
+					<tr>
+						<td>Feb 23, 2016</td>
+						<td>you transfered</td>
+						<td>€33,00</td>
+						<td>John Doe</td>
+					</tr>
+					<tr>
+						<td>Nov 28, 2015</td>
+						<td>you transfered</td>
+						<td>€579,68</td>
+						<td>John Doe</td>
+					</tr>
+					<tr>
+						<td>Mar 30, 2015</td>
+						<td>you transfered</td>
+						<td>€300,00</td>
+						<td>John Doe</td>
+					</tr>
+					<tr>
+						<td>Mar 27, 2015</td>
+						<td>you transfered</td>
+						<td>€300,00</td>
+						<td>John Doe</td>
+					</tr>
+					<tr>
+						<td>Mar 24, 2015</td>
+						<td>you transfered</td>
+						<td>€300,00</td>
+						<td>John Doe</td>
+					</tr>
+					<tr>
+						<td>Mar 23, 2015</td>
+						<td>you transfered</td>
+						<td>€300,00</td>
+						<td>John Doe2</td>
+					</tr>
+					<tr>
+						<td>Mar 21, 2015</td>
+						<td>you transfered</td>
+						<td>€300,00</td>
+						<td>John Doe</td>
+					</tr>
+					<tr>
+						<td>Mar 20, 2015</td>
+						<td>you transfered</td>
+						<td>€300,00</td>
+						<td>John Doe</td>
+					</tr>
+					<tr>
+						<td>Mar 19, 2015</td>
+						<td>you transfered</td>
+						<td>€300,00</td>
+						<td>John Doe2</td>
+					</tr>
+					<tr>
+						<td>Mar 16, 2015</td>
+						<td>you transfered</td>
+						<td>€300,00</td>
+						<td>John Doe</td>
+					</tr>
+				</table>
+				<h3>To all payments</h3>
 			</div>
 			
-		
-		
-		</div>
-	
-	
-	
-	<!-- Основной блок -->
-	<main>
-		
-			<div class="row">
-				<article class="col-md-8 col-lg-9"></article>
-				<aside class="col-md-4 col-lg-3"></aside>
+			<div style="clear:both"></div>
+			
+			<div class="choose">
+				<h2>Choose your action:</h2>
+				<div class="foonav">
+					<div class="make">Make payment</div>
+					<div>Add Payee</div>
+				</div>
 			</div>
+			
+			
+		</div>
 		
-	</main> 
-	
-	<!-- Подвал -->
-	<footer>
 		
-	</footer>
-	</div>
+			
+		
 	
-	
-	
-	
-	
-		<!-- <button type="button" class="btn btn-lg btn-danger" data-toggle="popover" title="Заголовок всплывающей панели" data-content="Основной текст всплывающей панели">Нажмите на кнопку</button>
-		<!-- Подключаю библиотеку jQuery, необходимую для работы скриптов Bootstrap 3 -->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-		<!-- Подключаю скомпилированный и минимизируевый файл JavaScript платформы Bootstrap 3 -->
-		<script src="js/bootstrap.min.js"></script>
-		<!-- Дополнительный сценарий на JavaScript, предназначенный для инициализации компонента Bootstrap "Popovers" -->
-		<script>
-			$(function () {
-				$('[data-toggle="popover"]').popover()
-			})
-		</script>
-	</body>
+	</div>       
+         
+        
+     
+   
+ 
+    <div id="footer">
+ 
+        <div class="container">
+         
+            
+         
+        </div>
+     
+    </div>
+</body>
 </html>
